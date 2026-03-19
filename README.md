@@ -16,7 +16,7 @@ Executed on a secure AWS EC2 instance (us-west-2) with least-privilege IAM roles
 - Docker, AWS CLI, Python 3.11+
 
 ## 🧩 Project Architecture & Workflow
-![Deployment Architecture](screenshots/06-deployment-architecture.png)
+![Deployment Architecture](images/06-deployment-architecture.png)
 
 ## ⚙️ Key Implementation Steps
 - Created Strands Agents with custom tools and Bedrock models
@@ -44,22 +44,22 @@ Executed on a secure AWS EC2 instance (us-west-2) with least-privilege IAM roles
 
 ## 📸 Implementation Evidence
 ### 1. First Working Strands Agent
-![First Agent](screenshots/00-first-agent-calculator.png)
+![First Agent](images/00-first-agent-calculator.png)
 
 ### 2. Secure Credentials with AgentCore Identity
-![Secure Credentials](screenshots/01-secure-credentials-identity.png)
+![Secure Credentials](images/01-secure-credentials-identity.png)
 
 ### 3. Cognito JWT Token Generation
-![Cognito JWT](screenshots/03-cognito-jwt-token.png)
+![Cognito JWT](images/03-cognito-jwt-token.png)
 
 ### 4. AgentCore Gateway with OpenAPI MCP
-![Gateway & MCP](screenshots/04-openapi-mcp-gateway.png)
+![Gateway & MCP](images/04-openapi-mcp-gateway.png)
 
 ### 5. Gateway Testing with Strands Agent
-![Gateway Testing](screenshots/05-gateway-testing-with-strands.png)
+![Gateway Testing](images/05-gateway-testing-with-strands.png)
 
 ### 6. CloudWatch Observability Dashboard
-![Observability](screenshots/08-cloudwatch-genai-dashboard.png)
+![Observability](images/08-cloudwatch-genai-dashboard.png)
 
 ## 📚 Use Case
 This project demonstrates applied expertise in securing and deploying Agentic AI systems within cloud-native environments. It highlights capabilities in secure architecture design, identity and access management, API protection, and observability, key areas for protecting modern hybrid infrastructures and AI-driven applications.
